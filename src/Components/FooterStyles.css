@@ -1,0 +1,44 @@
+.footer {
+    width: 100%;
+    padding: 2rem 0; /* Reduce padding for a smaller footer */
+    background-color: rgba(19, 19, 19, 0.8);
+  }
+  
+  .footer-container {
+    max-width: 1140px;
+    margin: auto;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem; /* Space between social links */
+  }
+  
+  .social a:last-child {
+    margin-right: 0; /* Remove right margin for the last item */
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .social {
+      flex-wrap: wrap;
+    }
+  }
+  
